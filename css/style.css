@@ -119,6 +119,13 @@ body {
   width: 370px;
   text-align: center;
   box-shadow: 0px 3px 10px -3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.card:hover {
+  background-color: floralwhite;
+  transform: scale(1.1);
 }
 .card-img img {
   width: 370px;
@@ -157,6 +164,13 @@ body {
   width: 770px;
   max-width: 100%;
   box-shadow: 0px 3px 10px -3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.card-summer:hover {
+  background-color: floralwhite;
+  transform: scale(1.1);
 }
 .card-summer img {
   width: 770px;
@@ -251,6 +265,8 @@ body {
   text-align: center;
   box-shadow: 0px 3px 10px -3px rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
+  overflow: hidden;
+  margin-bottom: 60px;
 }
 .sidebar-card-img img {
   margin-bottom: 15px;
@@ -274,7 +290,6 @@ body {
   font-family: PT Serif;
   font-size: 12px;
   padding-bottom: 14px;
-  margin-bottom: 70px;
 }
 .sidebar-card-subtitle-info span {
   color: #b1b1b1;
